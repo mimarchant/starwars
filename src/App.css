@@ -1,38 +1,41 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: starjedi;
+  src: './public/fonts/starjedi.ttf';
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.notfound{
+  color: yellow;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-nav{
+  background-image: url(https://images.unsplash.com/photo-1530508777238-14544088c3ed?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80);
+  font-family:  starjedi;
+  color: yellow;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title{
+  font-family:  starjedi;
+  color: yellow;
 }
 
-.App-link {
-  color: #61dafb;
+.card-text{
+  font-family:  starjedi;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.heart:hover{
+  
+  color: red;
+}
+.heart-clicked{
+  background-color: red;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.pintado{
+  color: red;
+  font-size: 20px;
 }
